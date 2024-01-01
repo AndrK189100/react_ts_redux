@@ -1,0 +1,50 @@
+.container {
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.list {
+    padding-left: 0;
+    list-style: none;
+}
+
+.list__element-info {
+    display: inline-block;
+    width: 350px;
+    text-align: left;
+    margin-right: 20px;
+}
+
+.item__name {
+    display: inline-block;
+    border: 1px solid white;
+    border-radius: 4px;
+    width: 260px;
+    padding-left: 5px;
+    margin-bottom: 5px;       
+}
+
+.price {
+    display: inline-block;
+    border: 1px solid white;
+    border-radius: 4px;
+    width: 60px;
+    margin-left: 10px;
+    padding-right: 5px;
+    text-align: right;
+}
+
+.filter__container {
+    margin-top: 10px;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.filter {
+    border: 1px solid white;
+    border-radius: 1%;
+    outline: 1px solid white;
+    
+    outline-offset: 5px;
+}
